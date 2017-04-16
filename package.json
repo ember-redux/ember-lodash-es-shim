@@ -1,24 +1,28 @@
 {
   "name": "ember-lodash-es-shim",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "lodash-es shim for ember-cli",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Toran Billups (https://github.com/toranb)",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ember-redux/ember-lodash-es-shim.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.0.0-beta.3"
+    "ember-cli-babel": "^6.0.0-beta.3",
+    "broccoli-merge-trees": "^1.1.4"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -39,7 +43,8 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.13.0-beta.1",
     "ember-welcome-page": "^3.0.0",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "lodash-es": "^4.17.4"
   },
   "engines": {
     "node": ">= 4"
