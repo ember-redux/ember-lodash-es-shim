@@ -1,6 +1,6 @@
 {
   "name": "ember-lodash-es-shim",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "lodash-es shim for ember-cli",
   "keywords": [
     "ember-addon"
@@ -22,6 +22,8 @@
   },
   "dependencies": {
     "ember-cli-babel": "^6.0.0-beta.3",
+    "broccoli-replace": "^0.12.0",
+    "broccoli-funnel": "^1.0.4",
     "broccoli-merge-trees": "^1.1.4"
   },
   "devDependencies": {
