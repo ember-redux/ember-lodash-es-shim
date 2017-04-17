@@ -5,9 +5,9 @@ const mergeTrees = require('broccoli-merge-trees');
 const path = require('path');
 
 module.exports = {
-  name: 'lodash-es',
+  name: 'lodash',
   treeForAddon (tree) {
-    const lodashPath = path.dirname(require.resolve('lodash-es/*.js'));
+    const lodashPath = path.dirname(require.resolve('lodash-es/'));
     let lodashTree = this.treeGenerator(lodashPath);
 
     if (!tree) {
