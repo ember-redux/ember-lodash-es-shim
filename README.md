@@ -1,27 +1,23 @@
 # ember-lodash-es-shim
 
-This README outlines the details of collaborating on this Ember addon.
+[![Travis][ci-img]][ci-url] [![NPM][npm-img]][npm-url] ![Ember][ember-img]
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-lodash-es-shim`
-* `npm install`
-* `bower install`
+```bash
+ember install ember-lodash-es-shim
+```
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+```js
+import isPlainObject from 'lodash/isPlainObject';
+```
 
-## Running Tests
+To learn more about `lodash` and how to use it visit the [lodash](https://github.com/lodash/lodash) Github page.
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+[ci-img]: https://img.shields.io/travis/ember-redux/ember-lodash-es-shim.svg "Travis CI Build Status"
+[ci-url]: https://travis-ci.org/ember-redux/ember-lodash-es-shim
+[ember-img]: https://img.shields.io/badge/ember-1.13.13+-green.svg "Ember 1.13.13+"
+[npm-img]: https://img.shields.io/npm/v/ember-lodash-es-shim.svg "NPM Version"
+[npm-url]: https://www.npmjs.com/package/ember-lodash-es-shim
