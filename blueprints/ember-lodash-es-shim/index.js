@@ -1,7 +1,7 @@
 module.exports = {
   afterInstall: function () {
     return this.addPackagesToProject([
-      {name: 'lodash-es', target: '4.17.4'}
+      {name: 'lodash-es', target: '4.17.10'}
     ])
   },
 
