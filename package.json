@@ -1,6 +1,6 @@
 {
   "name": "ember-lodash-es-shim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lodash-es shim for ember-cli",
   "keywords": [
     "ember-addon"
