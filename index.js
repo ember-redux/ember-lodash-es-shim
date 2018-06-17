@@ -1,7 +1,7 @@
 'use strict';
 
 const Funnel = require('broccoli-funnel');
-const replace = require('broccoli-replace');
+const replace = require('broccoli-string-replace');
 const mergeTrees = require('broccoli-merge-trees');
 const path = require('path');
 
@@ -18,7 +18,7 @@ module.exports = {
     });
 
     lodashTree = replace(lodashTree, {
-      files: '**/*.js',
+      files: ['**/*.js'],
       patterns: [
         {
           match: /from '([^']+)\.js'/g,
